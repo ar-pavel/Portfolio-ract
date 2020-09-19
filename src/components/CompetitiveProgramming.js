@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 const CompetitiveProgramming = () => (
   <>
-    <div className="page" style={{ paddingTop: "100px" }}>
+    <div className="page">
       <SEO title="Competitive Programming" />
       <div>
         <p className="icpc">

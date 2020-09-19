@@ -1,16 +1,12 @@
 import React from "react"
 
-const Icon = () => {
+const Icon = Props => {
   return (
     <>
-      <img
-        src="src/images/facebook.png"
-        style={{
-          width: 10,
-        }}
-        // alt={props.altText}
-      />
-      {/* {this.props.text} */}
+      <svg className="icon" viewBox={Props.icon.viewBox}>
+        <title>{Props.name}</title>
+        <path d={Props.icon.path} />
+      </svg>
     </>
   )
 }

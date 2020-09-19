@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import Icon from "./icon"
-import Emoji from "./emoji"
+import getIcon from "./getIcon"
 
 const Footer = ({ siteTitle }) => (
   <footer className="footer">
@@ -13,29 +13,25 @@ const Footer = ({ siteTitle }) => (
         href="https://github.com/ar-pavel"
         style={{ paddingRight: 50, textDecoration: "none" }}
       >
-        {/* <Icon image="src/images/github.png" text="github logo" /> GitHub */}
-        <Emoji emoji="gh" /> GitHub
+        <Icon name="github" icon={getIcon("github")} />
       </a>
 
       <a
         href="https://www.linkedin.com/in/ar-pavel/"
         style={{ paddingRight: 50, textDecoration: "none" }}
       >
-        {/* <Icon image="src/images/linkedin.png" text="linkedin logo" /> LinkedIn */}
-        <Emoji emoji="li" /> LinkedIn
+        <Icon name="linkedin" icon={getIcon("linkedin")} />
       </a>
 
       <a
         href="https://www.facebook.com/hibernatingdaemon"
         style={{ paddingRight: 50, textDecoration: "none" }}
       >
-        {/* <Icon /> Facebook */}
-        <Emoji emoji="f" /> Facebook
+        <Icon name="facebook" icon={getIcon("facebook")} />
       </a>
 
       <a href="" style={{ paddingRight: 50, textDecoration: "none" }}>
-        {/* <Icon image="../images/instagram.png" text="instagram logo" /> Instagram */}
-        <Emoji emoji="-_-" /> Instagram
+        <Icon name="instagram" icon={getIcon("instagram")} />
       </a>
     </p>
     © {new Date().getFullYear()}, Built with ❤️ by

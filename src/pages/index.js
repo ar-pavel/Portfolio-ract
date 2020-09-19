@@ -13,7 +13,7 @@ const IndexPage = () => (
     <div>
       <h2 style={{ color: "orange", paddingTop: 50 }}>About</h2>
       <About />
-      <h2 style={{ color: "orange", paddingTop: 50 }}>
+      <h2 style={{ color: "orange", paddingTop: 100 }}>
         CompetitiveProgramming
       </h2>
       <CompetitiveProgramming />
