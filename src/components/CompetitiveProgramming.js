@@ -47,21 +47,21 @@ const CompetitiveProgramming = () => (
         </p>
 
         <p className="iupc" style={{ marginTop: 50, marginBottom: 7 }}>
-          <h3>Intra University Programming Contests</h3>
+          <h3>Inter University Programming Contests</h3>
           <p>
             Participated in more than 10 IUPC within the course of 2018-2020.
           </p>
         </p>
 
-        <p className="iupc" style={{ marginTop: 50, marginBottom: 7 }}>
-          <h3>Inter University Programming Contests</h3>
-          <p>
-            <b>Winner</b>, SEU Inter University Junior Programming Contest 2017,{" "}
-            <em>Southeast University</em>.
-          </p>
+        <p className="intra" style={{ marginTop: 50, marginBottom: 7 }}>
+          <h3>Intra University Programming Contests</h3>
           <p>
             <b>First Runner's up</b>, SEU Inter University Programming Contest
             2019, <em>Southeast University</em>.
+          </p>
+          <p>
+            <b>Winner</b>, SEU Inter University Junior Programming Contest 2017,{" "}
+            <em>Southeast University</em>.
           </p>
         </p>
 
