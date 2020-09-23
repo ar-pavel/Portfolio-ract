@@ -1,6 +1,8 @@
 import React from "react"
 import Image from "./image"
 
+// TODO: replace static variables with props properties
+
 const Card = ({ props }) => (
   <>
     <div className="card">
