@@ -3,28 +3,21 @@ import Image from "./image"
 
 // TODO: replace static variables with props properties
 
-const Card = ({ props }) => (
+const Card = ({ name, title, description, src, live }) => (
   <>
-    <div className="card">
-      <p style={{ color: "red" }}>{props}</p>
-    </div>
+    <div className="card">{/* <p style={{ color: "red" }}>{name}</p> */}</div>
 
     <div class="row">
       <div class="col-lg-4 col-sm-12">
         <div class="project-wrapper__text" data-sr-id="9">
-          <h3 class="project-wrapper__text-title">Project Title</h3>
+          <h3 class="project-wrapper__text-title">{title}</h3>
           <div>
-            <p class="mb-4">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Excepturi neque, ipsa animi maiores repellendus distinctio aperiam
-              earum dolor voluptatum consequatur blanditiis inventore debitis
-              fuga numquam voluptate ex architecto itaque molestiae.
-            </p>
+            <p class="mb-4">{description}</p>
           </div>
-          <a target="_blank" class="cta-btn cta-btn--live" href="#!">
+          <a target="_blank" class="cta-btn cta-btn--live" href={live}>
             See Live
           </a>
-          <a target="_blank" class="cta-btn cta-btn--src" href="#!">
+          <a target="_blank" class="cta-btn cta-btn--src" href={src}>
             Source Code
           </a>
         </div>

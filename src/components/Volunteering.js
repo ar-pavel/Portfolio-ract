@@ -8,7 +8,7 @@ const Volunteering = () => (
     <div className="page">
       <div className="seucc" style={{ marginBottom: 50 }}>
         <h3 style={{ marginBottom: 7 }}> Southeast Computer Club</h3>
-        <h6 style={{ marginBottom: 10 }}>Sep 2018 - Dec 2020</h6>
+        <h6 style={{ marginBottom: 10 }}>Sep 2018 - Dec 2019</h6>
         <em>Southeast Computer Club</em> is Southeast University's central
         computer club. I was a governing body member and organized many events
         especially related to programming, Science and technology, SEU Intra-Uni
