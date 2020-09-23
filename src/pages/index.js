@@ -11,7 +11,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div>
-      <h2 style={{ color: "orange", paddingTop: 50 }}>About</h2>
+      <h2 style={{ color: "orange", paddingTop: 0 }}>About</h2>
       <About />
       <h2 style={{ color: "orange", paddingTop: 100 }}>
         CompetitiveProgramming

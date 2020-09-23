@@ -9,6 +9,7 @@ const Header = ({ siteTitle }) => (
       marginBottom: `1.45rem`,
       position: "sticky",
       top: 0,
+      zIndex: "2",
     }}
   >
     <div

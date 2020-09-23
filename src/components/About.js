@@ -4,7 +4,7 @@ import Image from "./image"
 const About = () => (
   <>
     <div className="page">
-      <div style={{ marginBottom: "200px" }}>
+      <div style={{ float: "none", marginBottom: "200px" }}>
         <div>
           <Image />
         </div>
