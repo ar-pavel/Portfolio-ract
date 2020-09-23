@@ -645,11 +645,6 @@ pre tt:after {
 }
 
 .card {
-  /* width: 200px;
-  height: 200px;
-  background-color: rebeccapurple;
-  display: inline-block; */
-  /* padding: 2rem; */
   margin: 2rem;
   visibility: visible;
   opacity: 1;
@@ -667,7 +662,6 @@ pre tt:after {
   fill: currentColor;
   font-style: normal;
   font-weight: normal;
-  speak: none;
   margin-right: 0.2em;
   text-align: center;
   font-variant: normal;
@@ -677,20 +671,18 @@ pre tt:after {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 .cta-btn {
   display: inline-block;
   position: relative;
   padding: 0.8rem 1.6rem;
   font-weight: 700;
   line-height: 1;
-  z-index: -1;
+  z-index: 1;
   transition: all 0.6s cubic-bezier(0.19, 1, 0.22, 1);
-  color: #007bff;
-  text-decoration: none;
-  background-color: transparent;
+
+  /* transition: all .3s cubic-bezier(.19,1,.22,1); */
 }
-.cta-btn--hero {
+.cta-btn--live {
   color: #00cdac;
   -webkit-text-fill-color: #00cdac;
   border: 2px solid transparent;
@@ -700,44 +692,42 @@ pre tt:after {
   color: #007bff;
   text-decoration: none;
   background-color: transparent;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
+
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+  transition-delay: 0s;
 }
-.cta-btn--hero:after {
+.cta-btn--live:hover {
   background-image: linear-gradient(135deg, #02aab0, #00cdac);
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+
+  color: #02aab0;
+  -webkit-text-fill-color: #00cdac;
+  border: 2px solid transparent;
+  border-image: linear-gradient(135deg, #02aab0, #00cdac);
+  border-image-slice: 1;
 }
 
-.cta-btn:after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 0;
-  height: 100%;
-  left: 0;
-  bottom: 0;
-  z-index: -1;
-  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+.text-color-src {
+  transform: translateX(2px);
+  background-color: yellow;
 }
 
+.cta-btn--src:hover {
+  transform: translateX(2px);
+  /* background-color: yellow; */
+}
+
+a:hover {
+  transition: all 0.3s ease-in-out;
+}
 a,
 a:active,
 a:hover,
 a:link,
 a:visited {
   text-decoration: none;
-}
-::after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 0px;
-  height: 100%;
-  left: 0;
-  bottom: 0;
-  z-index: -1;
-  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
-}
-.text-color-main:hover {
-  transform: translateX(2px);
-}
-a:hover {
-  transition: all 0.3s ease-in-out;
 }

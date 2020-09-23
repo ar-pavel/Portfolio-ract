@@ -21,10 +21,10 @@ const Card = ({ props }) => (
               fuga numquam voluptate ex architecto itaque molestiae.
             </p>
           </div>
-          <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
+          <a target="_blank" class="cta-btn cta-btn--live" href="#!">
             See Live
           </a>
-          <a target="_blank" class="cta-btn text-color-main" href="#!">
+          <a target="_blank" class="cta-btn cta-btn--src" href="#!">
             Source Code
           </a>
         </div>
