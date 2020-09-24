@@ -71,6 +71,6 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 ## 💫 Deployments
 
-[![Netlify Live](https://www.netlify.com/img/deploy/button.svg)](https://ar-pavel.netlify.app/)
+[![Netlify Live](https://www.netlify.com/img/deploy/button.svg)](https://ar-pavel.netlify.app/) [![Deployment Status](https://api.netlify.com/api/v1/badges/74318b24-4c2b-4d8e-96ec-f9d0da4b2b6e/deploy-status)](https://app.netlify.com/sites/ar-pavel/deploys)
 
 # StaticPortfolio
