@@ -720,14 +720,3 @@ pre tt:after {
   transform: translateX(2px);
   /* background-color: yellow; */
 }
-
-a:hover {
-  transition: all 0.3s ease-in-out;
-}
-a,
-a:active,
-a:hover,
-a:link,
-a:visited {
-  text-decoration: none;
-}

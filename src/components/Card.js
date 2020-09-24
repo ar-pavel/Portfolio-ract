@@ -1,7 +1,7 @@
 import React from "react"
 import Image from "./image"
 
-// TODO: replace static variables with props properties
+// TODO: add thumbnails of the projects
 
 const Card = ({ name, title, description, src, live }) => (
   <>
