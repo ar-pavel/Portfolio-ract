@@ -3,6 +3,8 @@ import Image from "./image"
 
 // TODO: add thumbnails of the projects
 
+// each card display a project with the info passed as props
+
 const Card = ({ name, title, description, src, live }) => (
   <>
     <div className="card">{/* <p style={{ color: "red" }}>{name}</p> */}</div>

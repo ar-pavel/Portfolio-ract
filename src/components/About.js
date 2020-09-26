@@ -12,8 +12,8 @@ const About = () => (
           <p className="narration">
             <h5>Narrative</h5>
             <p>
-              I'm Atikur Rahman aka Pavel. Currently pursuing a bachelor's
-              degree from <em> No-Name University</em>.
+              I'm Atikur Rahman aka Pavel. A dreamer with high hopes. Currently
+              pursuing a bachelor's degree from <em> No-Name University</em>.
             </p>
             <p>
               I love to take challenges and solve problems that give some spicy
