@@ -1,4 +1,3 @@
-
 const getIcon = name => {
   let icon
 
