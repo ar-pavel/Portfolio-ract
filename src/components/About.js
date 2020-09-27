@@ -13,7 +13,9 @@ const About = () => (
             <h5>Narrative</h5>
             <p>
               I'm Atikur Rahman aka Pavel. A dreamer with high hopes. Currently
-              pursuing a bachelor's degree from <em> No-Name University</em>.
+              pursuing a bachelor's degree from{" "}
+              <em> Southeast University in Computer Science and Engineering</em>
+              .
             </p>
             <p>
               I love to take challenges and solve problems that give some spicy
@@ -24,14 +26,8 @@ const About = () => (
             <p>
               I also love to develop operations and sometimes operate
               development. Mainly I use <em>C++</em> but I also have occasional
-              flings with <em>Java, Python, C</em> and now learning{" "}
-              <em>JavaScript</em> in a mentorship program of{" "}
-              <a
-                href="https://durbinlabs.com/"
-                style={{ textDecoration: "none" }}
-              >
-                Durbin Labs Ltd.
-              </a>
+              flings with <em>Java, Python, C</em> and getting hand dirty with{" "}
+              <em>JavaScript</em>.
             </p>
           </p>
         </div>
