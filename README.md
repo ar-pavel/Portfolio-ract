@@ -6,8 +6,6 @@
 
 [![GitHub](https://img.shields.io/github/license/ar-pavel/Static-Portfolio?color=blue)](https://github.com/ar-pavel/Static-Portfolio/blob/master/LICENSE.md) ![GitHub stars](https://img.shields.io/github/stars/ar-pavel/Static-Portfolio) ![GitHub forks](https://img.shields.io/github/forks/ar-pavel/Static-Portfolio)
 
-_This project is built with gatsby as a asssignment of a mentorship Program assigned by @durbinLab_
-
 ## 🚀 Project Overview
 
 1.  **Clone this project.**
