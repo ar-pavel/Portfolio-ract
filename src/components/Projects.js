@@ -14,12 +14,19 @@ const Project = () => (
         live="https://submaxvlsm.herokuapp.com/"
         src="https://github.com/ar-pavel/SUBMAX"
       />
+       <Card
+        name="RISC-V Simulator"
+        title="riscv"
+        description="32-bit single core based implementation of RISC-V ISS feature specifications and covers all permitted configurations."
+        live="https://submaxvlsm.herokuapp.com/"
+        src="https://github.com/ar-pavel/SUBMAX"
+      />
       <Card
         name="WC-University-Portal"
         title="WC University Management System"
         description="WC University is an Imginary University and this project is to manage this university. There are 7 microservices for backend and a vaadin based front-end(under development) to maitain this system."
-        live="http://ar-pavel.me/WC-University-Portal/"
-        src="https://github.com/ar-pavel/WC-University-Portal"
+        live="https://github.com/ar-pavel/RISC-V-Simulator"
+        src="https://github.com/ar-pavel/RISC-V-Simulator"
       />
       <Card
         name="Reversi-OthelloGame"
